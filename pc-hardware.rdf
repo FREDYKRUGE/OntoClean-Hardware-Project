@@ -29,6 +29,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/momchil/ontologies/2025/10/untitled-ontology-2#isBestSeller -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/momchil/ontologies/2025/10/untitled-ontology-2#isBestSeller">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/momchil/ontologies/2025/10/untitled-ontology-2#isCompatibleWith -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/momchil/ontologies/2025/10/untitled-ontology-2#isCompatibleWith">
@@ -45,12 +53,6 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
-
-
-    <!-- http://www.semanticweb.org/momchil/ontologies/2025/10/untitled-ontology-2#BestSeller -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/momchil/ontologies/2025/10/untitled-ontology-2#BestSeller"/>
     
 
 
@@ -118,6 +120,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/momchil/ontologies/2025/10/untitled-ontology-2#VideoCard">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/momchil/ontologies/2025/10/untitled-ontology-2#ComputerComponent"/>
+        <rdfs:comment>OntoClean +R (Rigid)</rdfs:comment>
     </owl:Class>
 </rdf:RDF>
 
